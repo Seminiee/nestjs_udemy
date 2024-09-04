@@ -1,0 +1,14 @@
+### List all messages
+GET http://localhost:5502/messages
+
+
+### Create a new message
+POST http://localhost:5502/messages
+content-type: application/json
+
+{
+    "content": "message after add DI"
+}
+
+### Get a particular message
+GET http://localhost:5502/messages/482
